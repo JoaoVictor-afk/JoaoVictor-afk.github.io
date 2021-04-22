@@ -1,2 +1,9 @@
 # JoaoVictor-afk.github.io
-Desafio de fazer um curriculo usando só HTML
+Projeto de pagina de captura
+<br>
+Feito para auxiliar uma pessoas na organização de dados dos clientes.
+<br>
+back-end feito no mailchimp
+## Programas 
+HTML
+CSS
