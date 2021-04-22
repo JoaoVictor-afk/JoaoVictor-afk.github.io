@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif ;
+    background-color: black;
+    background-image: url(./4ed1e3825bdf2c78391e46eb6e59c19f.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-family: 'Roboto' ;
+    
+}
+p{
+    font-weight: bold;
+}
+h2{
+    margin-bottom: 10px;
+}
+header{
+    background-color: rgb(26, 83, 83);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    
+
+}
+.title{
+    text-transform: uppercase;
+    
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.img{
+    padding: 20px;
+    background-image: url(./cartoes-credito-1300x650.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formcontainer{
+    float: right;
+    max-width: 260px;
+    text-align: center;
+    background-color: #FFFFFFBB;
+    border-radius: 10px;
+    
+}
+input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+input[type=submit]
+{
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+ text-align: center; 
+ cursor: pointer;  
+}
+input[type=submit]:hover
+{
+    color: black;
+    background-color: white;
+}
+footer{
+    background-color:#202121;
+    text-align: center;
+    
+    padding: 64.5px;
+}
+.picture{
+width: 160px;
+
+}
+.description{
+    color:white;
+    display: inline-block;
+    max-width: 30%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description p{
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 562px){
+.formcontainer{
+    float: none;
+    margin: auto;
+}
+.description {
+    display: inline;
+
+}
+.picture{
+    margin: auto;
+}
+
+
+
+}
